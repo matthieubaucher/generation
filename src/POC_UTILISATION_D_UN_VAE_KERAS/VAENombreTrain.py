@@ -1,12 +1,12 @@
 import numpy as np
 from tensorflow import keras
-from helloWorldVAE.VAENombre import VAE, encoder, decoder
+from POC_UTILISATION_D_UN_VAE_KERAS.VAENombre import VAE, encoder, decoder
 
 print("definition de l'espace de stockage")
 
 PATH_APPLICATION = "../../"
 PATH_RESOURCES = PATH_APPLICATION + "/resources/"
-filename = PATH_RESOURCES + 'helloWorld'
+filename = PATH_RESOURCES + 'POC_UTILISATION_D_UN_VAE_KERAS'
 
 print("filename = " + filename)
 

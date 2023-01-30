@@ -6,7 +6,7 @@ from VAENombre import Sampling, VAE
 
 PATH_APPLICATION = "../../"
 PATH_RESOURCES = PATH_APPLICATION + "/resources/"
-filename = PATH_RESOURCES + 'helloWorld'
+filename = PATH_RESOURCES + 'POC_UTILISATION_D_UN_VAE_KERAS'
 
 
 def plot_latent_space(vae, n=30, figsize=15):
